@@ -1,6 +1,6 @@
 import React from 'react';
 import AppForm from './AppForm';
-import AppPreviewD from './AppPreviewD';
+import AppPreview from './AppPreview';
 import './App.css';
 import {
   Row,
@@ -74,7 +74,7 @@ function App(){
           logo={logo}
         />
         
-        <AppPreviewD
+        <AppPreview
           nameSpace={nameSpace}
           URLSpace={URLSpace}
           color={color}
