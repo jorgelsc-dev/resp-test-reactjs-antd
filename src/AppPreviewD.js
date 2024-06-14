@@ -142,7 +142,7 @@ function AppPreviewD({nameSpace, URLSpace, color, logo}){
                                 <rect className="c" width="573" height="45" transform="translate(276 320)"/>
                             </g>
                             <g className="ai" transform="matrix(1, 0, 0, 1, 3507, 576)">
-                                <rect className="o" width="573" height="45" transform="translate(276 367)"/>
+                                <rect className="o" style={{fill:color, fillOpacity:0.5}} width="573" height="45" transform="translate(276 367)"/>
                             </g>
                             <g className="ah" transform="matrix(1, 0, 0, 1, 3507, 576)">
                                 <rect className="c" width="573" height="45" transform="translate(276 414)"/>
@@ -152,7 +152,7 @@ function AppPreviewD({nameSpace, URLSpace, color, logo}){
                             </g>
                             <rect className="p" width="177" height="45" transform="translate(4119 849)"/>
                             <rect className="p" width="177" height="45" transform="translate(4119 896)"/>
-                            <rect className="q" width="177" height="45" transform="translate(4119 943)"/>
+                            <rect className="q" style={{fill:color,fillOpacity:0.5}} width="177" height="45" transform="translate(4119 943)"/>
                             <rect className="p" width="177" height="45" transform="translate(4119 990)"/>
                             <rect className="p" width="177" height="45" transform="translate(4119 1037)"/>
                             <rect className="r" width="145" height="19" rx="9.5" transform="translate(3781 817)"/>
@@ -161,27 +161,27 @@ function AppPreviewD({nameSpace, URLSpace, color, logo}){
                             <rect className="r" width="83" height="9" rx="4.5" transform="translate(4135 867)"/>
                             <rect className="r" width="28" height="9" rx="4.5" transform="translate(4135 913)"/>
                             <rect className="r" width="85" height="9" rx="4.5" transform="translate(4169 913)"/>
-                            <rect className="s" width="95" height="9" rx="4.5" transform="translate(4135 960)"/>
+                            <rect className="s" style={{fill:color}} width="95" height="9" rx="4.5" transform="translate(4135 960)"/>
                             <rect className="r" width="28" height="9" rx="4.5" transform="translate(4226 1007)"/>
                             <rect className="r" width="85" height="9" rx="4.5" transform="translate(4135 1007)"/>
                             <rect className="r" width="102" height="9" rx="4.5" transform="translate(4135 1054)"/>
                             <rect className="r" width="51" height="9" rx="4.5" transform="translate(4023 867)"/>
                             <rect className="r" width="44" height="9" rx="4.5" transform="translate(3797 913)"/>
-                            <rect className="s" width="117" height="9" rx="4.5" transform="translate(3797 960)"/>
+                            <rect className="s" style={{fill:color}} width="117" height="9" rx="4.5" transform="translate(3797 960)"/>
                             <rect className="r" width="103" height="9" rx="4.5" transform="translate(3847 913)"/>
                             <rect className="r" width="44" height="9" rx="4.5" transform="translate(3816 1054)"/>
                             <rect className="r" width="103" height="9" rx="4.5" transform="translate(3797 1007)"/>
                             <rect className="r" width="72" height="9" rx="4.5" transform="translate(3975 913)"/>
-                            <rect className="s" width="103" height="9" rx="4.5" transform="translate(3920 960)"/>
+                            <rect className="s" style={{fill:color}} width="103" height="9" rx="4.5" transform="translate(3920 960)"/>
                             <rect className="r" width="13" height="9" rx="4.5" transform="translate(3956 913)"/>
                             <rect className="r" width="44" height="9" rx="4.5" transform="translate(4015 1007)"/>
-                            <rect className="s" width="44" height="9" rx="4.5" transform="translate(4029 960)"/>
+                            <rect className="s" style={{fill:color}} width="44" height="9" rx="4.5" transform="translate(4029 960)"/>
                             <rect className="r" width="103" height="9" rx="4.5" transform="translate(3906 1007)"/>
                             <rect className="r" width="103" height="9" rx="4.5" transform="translate(3866 1054)"/>
                             <rect className="r" width="13" height="9" rx="4.5" transform="translate(4065 1007)"/>
                             <rect className="r" width="112" height="9" rx="4.5" transform="translate(3975 1054)"/>
                             <rect className="r" width="13" height="9" rx="4.5" transform="translate(3797 1054)"/>
-                            <rect className="s" width="6" height="46" transform="translate(3781 943)"/>
+                            <rect className="s" style={{fill:color}} width="6" height="46" transform="translate(3781 943)"/>
                         </g>
                         <path className="t" d="M5,0H680a0,0,0,0,1,0,0V42a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(3689 642)"/>
                         <rect className="u" width="680" height="1" transform="translate(3689 716)"/>
@@ -192,8 +192,8 @@ function AppPreviewD({nameSpace, URLSpace, color, logo}){
                         <text className="v" transform="translate(3850.538 705.215)">
                             <tspan x="0" y="0">https://</tspan>
                         </text>
-                        <text className="w" transform="translate(3892.538 705.215)">
-                            <tspan x="0" y="0">{URLSpace}</tspan>
+                        <text className="w" transform="translate(3900.538 705.215)">
+                            <tspan x="0" y="0" style={{marginLeft:'4px'}}>{URLSpace}</tspan>
                         </text>
                         <text className="w" transform="translate(3742.538 673.215)">
                             <tspan x="0" y="0">Plankton-{nameSpace}</tspan>
@@ -225,7 +225,7 @@ function AppPreviewD({nameSpace, URLSpace, color, logo}){
                                     <circle className="aa" cx="11.5" cy="11.5" r="11.5" transform="translate(0.173 205)"/>
                                     <circle className="aa" cx="11.5" cy="11.5" r="11.5" transform="translate(0.173 169)"/>
                                     <circle className="aa" cx="11.5" cy="11.5" r="11.5" transform="translate(0.173 133)"/>
-                                    <circle className="s" cx="11.5" cy="11.5" r="11.5" transform="translate(0.173 97)"/>
+                                    <circle className="s" style={{fill: color}} cx="11.5" cy="11.5" r="11.5" transform="translate(0.173 97)"/>
                                     <circle className="aa" cx="11.5" cy="11.5" r="11.5" transform="translate(0.173 61)"/>
                                 </g>
                             </g>
@@ -234,7 +234,7 @@ function AppPreviewD({nameSpace, URLSpace, color, logo}){
                                     <rect className="af" width="589" height="56"/>
                                     <rect className="ac" x="0.5" y="0.5" width="588" height="55"/>
                                 </g>
-                                <rect className='s' width="119" height="32" rx="16" transform="translate(409 12)"/>
+                                <rect className='s' style={{fill:color}} width="119" height="32" rx="16" transform="translate(409 12)"/>
                                 <g transform="translate(235.443 19.562)">
                                     <path className="ab" d="M255.65,4329.04a1,1,0,0,1,.56,1.75l-3.67,3.18,1.1,4.73a1,1,0,0,1-1.49,1.08l-4.15-2.51-4.15,2.5a1,1,0,0,1-1.49-1.08l1.1-4.72-3.67-3.18a1,1,0,0,1,.57-1.75l4.83-.41,1.89-4.459a1,1,0,0,1,1.84,0l1.89,4.45,4.84.42Z" transform="translate(-239.443 -4323.562)"/>
                                 </g>

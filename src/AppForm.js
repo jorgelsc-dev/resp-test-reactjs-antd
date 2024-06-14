@@ -104,16 +104,16 @@ function AppForm({logo,uploadLogo,changeNameSpace,changeURLSpace,changeColor,cha
             <Radio.Group
                 onChange={changeColor}
             >
-                <Radio value="rgba(57, 176, 255, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#39b0ff' }} /></Radio>
-                <Radio value="rgba(4, 181, 139, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#04b58b' }} /></Radio>
-                <Radio value="rgba(62, 156, 75, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#3e9c4b' }} /></Radio>
-                <Radio value="rgba(182, 188, 0, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#b6bc00' }} /></Radio>
-                <Radio value="rgba(229, 145, 0, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#e59100' }} /></Radio>
-                <Radio value="rgba(229, 92, 0, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#e55c00' }} /></Radio>
-                <Radio value="rgba(238, 31, 80, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#ee1f50' }} /></Radio>
-                <Radio value="rgba(214, 25, 138, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#d6198a' }} /></Radio>
-                <Radio value="rgba(179, 33, 241, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#b321f1' }} /></Radio>
-                <Radio value="rgba(72, 181, 254, 0.5)" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#48b5fe' }} /></Radio>
+                <Radio value="#39b0ff" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#39b0ff' }} /></Radio>
+                <Radio value="#04b58b" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#04b58b' }} /></Radio>
+                <Radio value="#3e9c4b" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#3e9c4b' }} /></Radio>
+                <Radio value="#b6bc00" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#b6bc00' }} /></Radio>
+                <Radio value="#e59100" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#e59100' }} /></Radio>
+                <Radio value="#e55c00" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#e55c00' }} /></Radio>
+                <Radio value="#ee1f50" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#ee1f50' }} /></Radio>
+                <Radio value="#d6198a" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#d6198a' }} /></Radio>
+                <Radio value="#b321f1" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#b321f1' }} /></Radio>
+                <Radio value="#48b5fe" style={{margin: '4px'}}><Avatar style={{ backgroundColor: '#48b5fe' }} /></Radio>
             </Radio.Group>
             <Divider/>
             <Button type="primary" onClick={submit}
